@@ -26,3 +26,6 @@ Learn MySQL Database
 
 ### Delete Table
     DROP TABLE tablename
+
+### Insert Data
+    INSERT INTO `product`(`id`, `product_name`) VALUES ('','Coffee Late')
