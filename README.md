@@ -32,3 +32,6 @@ Learn MySQL Database
 
 ### Update Data
     UPDATE `product` SET `product_name`='Black Coffee' WHERE `id`=1
+
+### Delete Data
+    DELETE FROM `product` WHERE `id`=2
