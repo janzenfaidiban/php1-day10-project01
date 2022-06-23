@@ -9,3 +9,9 @@ Learn MySQL Database
 
 ### Delete Database
     DROP DATABASE dbname
+
+### Create Table
+    CREATE TABLE product(
+        id INT(11) PRIMARY KEY,
+        product_name VARCHAR(50) NOT NULL
+    )
