@@ -23,3 +23,6 @@ Learn MySQL Database
         email VARCHAR(50) NULL,
         created_at TIMESTAMP
     )
+
+### Delete Table
+    DROP TABLE tablename
