@@ -6,4 +6,6 @@ Learn MySQL Database
 
 ### Create New Database
     CREATE DATABASE dbname
-    
+
+### Delete Database
+    DROP DATABASE dbname
