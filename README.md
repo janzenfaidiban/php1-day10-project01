@@ -2,9 +2,9 @@
 Learn MySQL Database
 
 
-## SQL Commands
+## SQL Commands ✅
 
-### Create Connection #1
+### Create Connection #1 ✅
     $servername = 'localhost';
     $username = 'root';
     $password = '';
@@ -22,7 +22,7 @@ Learn MySQL Database
         echo "TRA ERROR!";
     }
 
-### Create Connection #2
+### Create Connection #2 ✅
     $connect = new mysqli('localhost', 'root', '', 'php1_day10');
 
     if(!$connect->connect_error){
@@ -31,13 +31,13 @@ Learn MySQL Database
         echo "ADA ERROR!";
     }
 
-### Create New Database
+### Create New Database ✅
     CREATE DATABASE dbname
 
-### Delete Database
+### Delete Database ✅
     DROP DATABASE dbname
 
-### Create Table
+### Create Table ✅
     CREATE TABLE product(
         id INT(11) AUTO_INCREMENT PRIMARY KEY,
         product_name VARCHAR(50) NOT NULL
@@ -51,14 +51,14 @@ Learn MySQL Database
         created_at TIMESTAMP
     )
 
-### Delete Table
+### Delete Table ✅
     DROP TABLE tablename
-
-### Insert Data
+ 
+### Insert Data ✅
     INSERT INTO `product`(`id`, `product_name`) VALUES ('','Coffee Late')
 
-### Update Data
+### Update Data ✅
     UPDATE `product` SET `product_name`='Black Coffee' WHERE `id`=1
 
-### Delete Data
+### Delete Data ✅
     DELETE FROM `product` WHERE `id`=2
